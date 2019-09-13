@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"github.com/vvdruzev/docx"
 	"log"
 )
@@ -25,6 +26,7 @@ func main() {
 	}
 
 	//
-	docx1.WriteToFile("./new_result_1.docx")
+	docx1.WriteToFile("./test_result.docx")
+	fmt.Println("Результат записан в файл test_result.docx ")
 
 }
